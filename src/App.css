@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.App {
+  font-family: "Nunito", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  color: #5f6368;
+}
+.nav {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.108);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav-menu a {
+  margin: 0 30px;
+}
+
+/* TABLE */
+.table-div {
+  margin: 10px auto;
+}
+table {
+  min-width: 100%;
+}
+.tg {
+  border-color: #ccc;
+  border-spacing: 1px;
+}
+.tg td {
+  background-color: #fff;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: top;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  border-bottom: 1px solid #5f6368;
+}
+.search-input:focus {
+  background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    width: 90%;
+  }
+  .hideOnSmall {
+    display: none;
+  }
+}
