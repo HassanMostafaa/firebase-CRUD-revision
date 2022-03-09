@@ -25,7 +25,7 @@ export const Users = () => {
   //getting the data
   useEffect( () => {
      getUsers();
-  });
+  },[]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const getUsers = async () => {
     const database = await getDocs(
