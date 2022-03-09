@@ -25,7 +25,7 @@ export const Users = () => {
   //getting the data
   useEffect( () => {
      getUsers();
-  }, []);
+  });
 
   const getUsers = async () => {
     const database = await getDocs(
