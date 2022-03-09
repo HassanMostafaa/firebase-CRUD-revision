@@ -19,8 +19,8 @@ export const Nav = () => {
         />
       </div>
       <div className="nav-menu">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
+        <p>Link</p>
+        <p>Link</p>
       </div>
     </div>
   );
