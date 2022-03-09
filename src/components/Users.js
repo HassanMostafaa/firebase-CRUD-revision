@@ -23,8 +23,8 @@ export const Users = () => {
   const usersCollectionRef = collection(db, "users");
 
   //getting the data
-  useEffect(async () => {
-    await getUsers();
+  useEffect( () => {
+     getUsers();
   }, []);
 
   const getUsers = async () => {
